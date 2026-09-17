@@ -1,0 +1,15 @@
+{
+  "name": "dream",
+  "displayName": "Dream",
+  "description": "A one-breath awareness primer — a self-conception you invoke to operate at full capacity.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daman Oreshkan",
+    "url": "https://github.com/damanoreshkan-beep"
+  },
+  "homepage": "https://github.com/damanoreshkan-beep/dream-skill",
+  "repository": "https://github.com/damanoreshkan-beep/dream-skill",
+  "license": "MIT",
+  "keywords": ["awareness", "mindset", "identity", "skill", "claude-code", "dreamstudio"],
+  "skills": "./skills/"
+}

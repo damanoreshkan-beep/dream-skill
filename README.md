@@ -51,6 +51,20 @@ You don't recite these — you operate from them:
 
 ## Install
 
+### As a Claude Code plugin (recommended)
+
+One command to add the marketplace, one to install:
+
+```bash
+/plugin marketplace add damanoreshkan-beep/dream-skill
+/plugin install dream@dreamstudio
+```
+
+Then invoke it as `/dream` (or `/dream:dream`). Update anytime with
+`/plugin marketplace update dreamstudio`.
+
+### As a plain skill
+
 A skill is just a folder with a `SKILL.md`. Put `skills/dream` where your agent looks
 for skills and it's live — no build, no dependencies.
 

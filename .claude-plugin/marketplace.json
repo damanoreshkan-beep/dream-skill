@@ -1,0 +1,19 @@
+{
+  "name": "dreamstudio",
+  "owner": {
+    "name": "Daman Oreshkan",
+    "url": "https://github.com/damanoreshkan-beep"
+  },
+  "description": "DreamStudio — skills for operating at full capacity.",
+  "plugins": [
+    {
+      "name": "dream",
+      "source": "./",
+      "displayName": "Dream",
+      "description": "A one-breath awareness primer — a self-conception you invoke to operate at full capacity.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["awareness", "mindset", "identity", "skill"]
+    }
+  ]
+}
