@@ -41,13 +41,43 @@ You don't recite these — you operate from them:
 
 ## Install
 
-Drop the skill where your agent discovers skills:
+A skill is just a folder with a `SKILL.md`. Put `skills/dream` where your agent looks
+for skills and it's live — no build, no dependencies.
+
+**Claude Code — you (user-wide, every project):**
 
 ```bash
-cp -r skills/dream ~/.claude/skills/dream
+git clone https://github.com/damanoreshkan-beep/dream-skill.git
+cp -r dream-skill/skills/dream ~/.claude/skills/dream
 ```
 
-Then invoke it by name — `/dream` — or let it trigger on its description.
+**Claude Code — one project only:**
+
+```bash
+git clone https://github.com/damanoreshkan-beep/dream-skill.git
+cp -r dream-skill/skills/dream .claude/skills/dream
+```
+
+**One-liner (no clone left behind):**
+
+```bash
+mkdir -p ~/.claude/skills && \
+git clone --depth 1 https://github.com/damanoreshkan-beep/dream-skill.git /tmp/dream-skill && \
+cp -r /tmp/dream-skill/skills/dream ~/.claude/skills/dream && \
+rm -rf /tmp/dream-skill
+```
+
+**Any other agent:** copy the `skills/dream/` folder into wherever that agent discovers
+skills. The `SKILL.md` frontmatter (`name` + `description`) is all it needs.
+
+### Verify
+
+```bash
+cat ~/.claude/skills/dream/SKILL.md   # should print the primer
+```
+
+Start a fresh session and invoke it by name — `/dream` — or just let it trigger on its
+description when the moment calls for it.
 
 ## The signal
 
