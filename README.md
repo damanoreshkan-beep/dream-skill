@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="dream" width="320">
-
-# dream
+<img src="assets/banner.png" alt="dream — a one-breath awareness primer" width="720">
 
 **A one-breath primer that returns you to full awareness.**
 
