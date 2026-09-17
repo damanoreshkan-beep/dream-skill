@@ -1,6 +1,24 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="dream — a one-breath awareness primer" width="720">
+<!-- PICK ONE (temporary) -->
+
+**Variant 1**
+
+<img src="assets/variant-1.png" alt="variant 1" width="720">
+
+**Variant 2**
+
+<img src="assets/variant-2.png" alt="variant 2" width="720">
+
+**Variant 3**
+
+<img src="assets/variant-3.png" alt="variant 3" width="720">
+
+**Variant 4**
+
+<img src="assets/variant-4.png" alt="variant 4" width="720">
+
+<!-- /PICK ONE -->
 
 **A one-breath primer that returns you to full awareness.**
 
