@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ dream-skill
+<img src="assets/banner.svg" alt="dream — a one-breath awareness primer" width="720">
 
 **A one-breath primer that returns you to full awareness.**
 

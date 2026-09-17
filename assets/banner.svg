@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="dream — a one-breath awareness primer">
+  <defs>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2B84B"/>
+      <stop offset=".55" stop-color="#F2B84B"/>
+      <stop offset="1" stop-color="#5CE4DC"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2B84B"/>
+      <stop offset="1" stop-color="#5CE4DC"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F2B84B" stop-opacity=".38"/>
+      <stop offset=".4" stop-color="#5CE4DC" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#5CE4DC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="#000000"/>
+  <ellipse cx="300" cy="200" rx="300" ry="260" fill="url(#halo)"/>
+
+  <!-- mark -->
+  <g transform="translate(300 200) scale(1.7)">
+    <path filter="url(#glow)" fill="url(#spark)"
+          d="M0 -48 Q8 -8 48 0 Q8 8 0 48 Q-8 8 -48 0 Q-8 -8 0 -48 Z"/>
+    <path filter="url(#glow)" fill="#5CE4DC" opacity=".9"
+          d="M35 -34 Q38 -21 51 -18 Q38 -15 35 -2 Q32 -15 19 -18 Q32 -21 35 -34 Z"/>
+    <circle r="4.5" fill="#FFF7E6"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="560" y="188" font-family="'Inter','Segoe UI',system-ui,-apple-system,sans-serif"
+        font-size="128" font-weight="700" letter-spacing="-4" fill="url(#word)">dream</text>
+  <text x="564" y="246" font-family="'Inter','Segoe UI',system-ui,-apple-system,sans-serif"
+        font-size="25" font-weight="500" letter-spacing="4.5" fill="#8A9099">A ONE-BREATH AWARENESS PRIMER</text>
+</svg>

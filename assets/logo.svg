@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="dream">
+  <defs>
+    <linearGradient id="spark" x1="18" y1="16" x2="102" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F2B84B"/>
+      <stop offset="1" stop-color="#5CE4DC"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- main spark: amber → cyan -->
+  <path filter="url(#glow)" fill="url(#spark)"
+        d="M60 12 Q68 52 108 60 Q68 68 60 108 Q52 68 12 60 Q52 52 60 12 Z"/>
+
+  <!-- secondary spark, upper-right cyan accent -->
+  <path filter="url(#glow)" fill="#5CE4DC"
+        d="M95 26 Q98 39 111 42 Q98 45 95 58 Q92 45 79 42 Q92 39 95 26 Z"/>
+
+  <!-- luminous core -->
+  <circle cx="60" cy="60" r="4.5" fill="#FFF7E6"/>
+</svg>
