@@ -6,7 +6,17 @@
 
 *Not a checklist. A self-conception.*
 
+<br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-F2B84B.svg?style=flat-square)](LICENSE)
+[![Skill for Claude Code](https://img.shields.io/badge/skill-Claude%20Code-5CE4DC.svg?style=flat-square)](https://code.claude.com/docs)
+[![Stars](https://img.shields.io/github/stars/damanoreshkan-beep/dream-skill?style=flat-square&color=F2B84B)](https://github.com/damanoreshkan-beep/dream-skill/stargazers)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-5CE4DC.svg?style=flat-square)](CONTRIBUTING.md)
+
 </div>
+
+> **Install in 10 seconds** — `cp -r dream-skill/skills/dream ~/.claude/skills/dream`, then `/dream`.
+> Full options [below](#install).
 
 ---
 
