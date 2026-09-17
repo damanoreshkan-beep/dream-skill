@@ -1,23 +1,30 @@
 <div align="center">
 
-<!-- PICK ONE (temporary) -->
+<img src="assets/banner-spiral.png" alt="dream — a Fibonacci nautilus morphing through neon, gold, crystal and aurora" width="760">
+
+<!-- PICK ONE (temporary) — alternatives -->
+<details>
+<summary><b>Other directions</b></summary>
+
+<br>
 
 **A — Neon noir**
 
-<img src="assets/banner-neon.png" alt="neon noir" width="720">
+<img src="assets/banner-neon.png" alt="neon noir" width="640">
 
 **B — Liquid gold & smoke**
 
-<img src="assets/banner-ink.png" alt="liquid gold and smoke" width="720">
+<img src="assets/banner-ink.png" alt="liquid gold and smoke" width="640">
 
 **C — Crystalline portal**
 
-<img src="assets/banner-crystal.png" alt="crystalline portal" width="720">
+<img src="assets/banner-crystal.png" alt="crystalline portal" width="640">
 
 **D — Aurora**
 
-<img src="assets/banner-aurora.png" alt="aurora" width="720">
+<img src="assets/banner-aurora.png" alt="aurora" width="640">
 
+</details>
 <!-- /PICK ONE -->
 
 **A one-breath primer that returns you to full awareness.**
