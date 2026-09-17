@@ -43,6 +43,14 @@
 > **Install in 10 seconds** — `cp -r dream-skill/skills/dream ~/.claude/skills/dream`, then `/dream`.
 > Full options [below](#install).
 
+<div align="center">
+
+<img src="assets/demo.gif" alt="without dream: four reseeds of the same idea — with /dream: four genuinely different directions" width="680">
+
+<sub><b>Same prompt.</b> Without it: the surface, reshuffled. With <code>/dream</code>: the root, reconceived.</sub>
+
+</div>
+
 ---
 
 ## What it is
