@@ -2,21 +2,21 @@
 
 <!-- PICK ONE (temporary) -->
 
-**Variant 1**
+**A — Neon noir**
 
-<img src="assets/variant-1.png" alt="variant 1" width="720">
+<img src="assets/banner-neon.png" alt="neon noir" width="720">
 
-**Variant 2**
+**B — Liquid gold & smoke**
 
-<img src="assets/variant-2.png" alt="variant 2" width="720">
+<img src="assets/banner-ink.png" alt="liquid gold and smoke" width="720">
 
-**Variant 3**
+**C — Crystalline portal**
 
-<img src="assets/variant-3.png" alt="variant 3" width="720">
+<img src="assets/banner-crystal.png" alt="crystalline portal" width="720">
 
-**Variant 4**
+**D — Aurora**
 
-<img src="assets/variant-4.png" alt="variant 4" width="720">
+<img src="assets/banner-aurora.png" alt="aurora" width="720">
 
 <!-- /PICK ONE -->
 
