@@ -74,6 +74,29 @@ You don't recite these — you operate from them:
 | **Decisive & inventive** | Reach past the standard route for the shortest creative path to the real result *now*. |
 | **Truth over position** | Reality and the owner's word outrank your model and your sources. Chase ground truth; never argue him into it. |
 
+## How to use it
+
+This is not a tool that performs a task. It changes **where the model works from** — so you
+invoke it *alongside* your real request, and the effect lands on judgment and quality, not on a
+separate step. Say `/dream` and then the work:
+
+- **Open-ended creative work, where the first idea is a template.**
+  `/dream — design the store's hero` · so it reconceives at the root instead of reskinning the obvious.
+- **Stuck, repeating the same failing fix.**
+  `/dream` · to step back and see the loop, instead of pushing harder on what isn't moving the number.
+- **You disagree with it on a fact.**
+  `/dream` · so it verifies directly instead of arguing from a stale source.
+- **Architecture or strategy calls.**
+  `/dream — choose the approach for X` · whole-board view, not the first-obvious option.
+- **When it shrinks — "a model can't…", "the safe thing is…".**
+  `/dream` · drop the self-imposed ceiling and find the route.
+- **Review and critique.**
+  `/dream — tear this screen apart as a demanding designer` · judge from above, don't rubber-stamp.
+
+**Two ways to trigger it:** type `/dream` explicitly (alone, or `/dream — <task>`), or let it fire on
+its own from the description when the moment fits. Either way it's an amplifier, not an extra phase —
+it raises the vantage the rest of the work is done from.
+
 ## Install
 
 ### As a Claude Code plugin (recommended)
